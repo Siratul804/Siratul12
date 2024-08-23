@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" >
+Siratul Islam   
+</h1>
 
-## Getting Started
 
-First, run the development server:
+<p align="center">
+I have the power to create tools and solutions that simplify &
+improve people's lives so I am focused on building Scalable Solutions.
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+  <img src="https://siratul12.vercel.app/opengraph-image.png" alt="Home Screen" width="650"/>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies
+- Next.js
+- Tailwind CSS 
+- Framer Motion
+- three.js
+  
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+### Steps
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository
+    ```bash
+    git clone https://github.com/Siratul804/Siratul12
+    ```
+2. Navigate to the project directory
+    ```bash
+    cd your-repo
+    ```
+3. Install dependencies
+    ```bash
+    npm install
+    ```
+4. Run the development server
+    ```bash
+    npm run dev
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Project Structure
+```markdown
+- /app
+  - /components
+- layout.jsx
+- page.jsx
+- globals.css
+ ```
+---
 
-## Deploy on Vercel
+<p align="center">
+<b>Made with ❤️ by   <a href="https://github.com/Siratul804">  Siratul Islam </a> </b> 
+</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="center">
+  <a href="https://github.com/Siratul804?tab=repositories">View Project</a> •
+  <a href="https://github.com/Siratul804">GitHub Profile</a> •
+  <a href="https://www.linkedin.com/in/siratulislam/">LinkedIn</a> •
+  <a href="https://x.com/Siratul074">Twitter</a>
+</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">
+  <small>© 2024 Siratul Islam. All rights reserved.</small>
+</p>
