@@ -11,14 +11,14 @@ function Experience() {
             <p>Software Developer</p>
           </div>
 
-          <div>Dec 2023 - Present</div>
+          <i>Dec 2023 - Present</i>
         </div>
         <div className=" pt-10 sm:p-0 text-[#71717A] text-lg  ">
           <div className="text-center sm:text-start ">
             <b>Seed to Big</b>
             <p>Sr. Web Developer</p>
           </div>
-          <div>Oct 2020 - 2022 feb</div>
+          <i>Oct 2020 - Feb 2022 </i>
         </div>
       </main>
     </>

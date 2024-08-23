@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ProjectCard from "./ProjectCard";
+import { FaArrowRight } from "react-icons/fa6";
 
 function Project() {
   return (
@@ -40,9 +41,12 @@ function Project() {
           <Link
             href="https://github.com/Siratul804?tab=repositories"
             target="_blank"
-            className="border-b-2 border-[#71717A] hover:text-[#ffffffa3] hover:border-[#ffffffa3] "
+            className="border-b-2 border-[#71717A] hover:text-[#ffffffa3] hover:border-[#ffffffa3] flex items-center"
           >
-            See more
+            <p>See more</p>
+            <span className=" pl-1">
+              <FaArrowRight size={14} />
+            </span>
           </Link>
         </div>
       </main>

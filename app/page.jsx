@@ -14,7 +14,7 @@ export default function Home() {
           overflow: "hidden",
           backgroundColor: "black",
         }}
-        className=" h-[320vh] lg:h-[220vh] md:h-[235vh] "
+        className=" h-[320vh] lg:h-[210vh] md:h-[235vh] "
       >
         <GalaxyFarmerMotion />
 
@@ -54,18 +54,18 @@ export default function Home() {
               Contact
             </Link>
           </div>
-          <h1 className="text-[#71717A] text-[6vh] sm:text-[8vh] font-serif text-center ">
+          <h1 className="text-[#ffffffa3] text-[6vh] sm:text-[8vh] font-serif text-center ">
             Siratul Islam
           </h1>
           <div className="text-[#71717A] text-[12px] sm:text-[12px] lg:text-[14px] text-center font-mono py-8  p-4 ">
             I have the power to create tools and solutions that simplify &{" "}
             <br />
-            improve people's lives so I am focused on building Scalable
+            improve people's lives. Thus I am focused on building Scalable
             Solutions.
           </div>
           <AnimationImages />
           <Experience />
-          <div className="py-[10vh]"></div>
+          {/* <div className="my-[10vh]"></div> */}
           <Project />
           <Contact />
           {/* <Footer /> */}
