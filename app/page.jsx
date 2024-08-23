@@ -40,7 +40,7 @@ export default function Home() {
               Project
             </Link>
             <Link
-              href="https://github.com/Siratul804?tab=repositories"
+              href="/siratul.pdf"
               target="_blank"
               className="text-[#71717A] pr-4 hover:text-[#ffffffa3] "
             >
@@ -54,11 +54,12 @@ export default function Home() {
               Contact
             </Link>
           </div>
-          <h1 className="text-[#71717A] text-[8vh] font-serif text-center ">
+          <h1 className="text-[#71717A] text-[6vh] sm:text-[8vh] font-serif text-center ">
             Siratul Islam
           </h1>
-          <div className="text-[#71717A] text-[12px] text-center font-mono py-8 ">
-            I have the power to create tools and solutions that simplify and
+          <div className="text-[#71717A] text-[10px] sm:text-[12px] text-center font-mono py-8  p-4 ">
+            I have the power to create tools and solutions that simplify &{" "}
+            <br />
             improve people's lives so I am focused on building Scalable
             Solutions.
           </div>
