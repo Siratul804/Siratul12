@@ -11,7 +11,7 @@ function AnimatedImages() {
       <div className=" p-2">
         {" "}
         {/* Adjust space-x-4 for padding between items */}
-        <div className="flex justify-center py-4 space-x-4">
+        <div className="flex justify-center p-4 lg:space-x-4 md:space-x-4 space-x-2 ">
           <motion.img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
             height="32"
@@ -85,7 +85,7 @@ function AnimatedImages() {
             transition={{ duration: 0.5, delay: 0.8 }}
           />
         </div>
-        <div className="flex justify-center py-4 space-x-4">
+        <div className="flex justify-center py-4 lg:space-x-4 md:space-x-4 space-x-2">
           <motion.img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg"
             height="32"

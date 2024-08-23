@@ -37,12 +37,12 @@ function AnimatedStars() {
       ref={pointsRef}
       positions={new Float32Array(1000)
         .fill()
-        .map(() => Math.random() * 80 - 50)}
+        .map(() => Math.random() * 60 - 30)}
     >
       <PointMaterial
         attach="material"
         color="#ffffff"
-        size={0.02}
+        size={0.04}
         sizeAttenuation
         depthWrite={false}
       />

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Siratul Islam",
   description:
-    "As a full-stack developer, I have the power to create tools and solutions that simplify and improve people's lives. I am focused on building Scalable Solutions.",
+    "I have the power to create tools and solutions that simplify & improve people's lives so I am focused on building Scalable Solutions. ",
 };
 
 export default function RootLayout({ children }) {

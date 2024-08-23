@@ -8,7 +8,7 @@ function Project() {
         Projects
       </div>
       <main className=" w-[120vh] ">
-        <div className="text-[#71717A] flex justify-between ">
+        <div className="text-[#71717A] flex sm:justify-between justify-center lg:flex-row flex-col md:flex-col items-center	 ">
           <ProjectCard
             title="ShapeScript"
             description="It's a code generator which allow to draw rectangle , circle & triangle into HTML/CSS code."
@@ -22,7 +22,7 @@ function Project() {
             link="https://github.com/Siratul804/prompt_nextJS"
           />
         </div>
-        <div className="text-[#71717A] flex justify-between pt-10 ">
+        <div className="text-[#71717A] flex sm:justify-between justify-center lg:flex-row flex-col md:flex-col items-center	 ">
           <ProjectCard
             title=" RoadAhead-Native"
             description="RoadAhead is an advanced AI model that revolutionizes urban mobility by providing real-time traffic data."
