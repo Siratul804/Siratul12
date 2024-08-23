@@ -14,7 +14,7 @@ export default function Home() {
           overflow: "hidden",
           backgroundColor: "black",
         }}
-        className=" h-[320vh] lg:h-[210vh] md:h-[235vh] "
+        className=" h-[300vh] lg:h-[210vh] md:h-[235vh] "
       >
         <GalaxyFarmerMotion />
 
