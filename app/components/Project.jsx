@@ -17,24 +17,25 @@ function Project() {
             link="https://github.com/Siratul804/ShapeScript"
           />
           <ProjectCard
+            title="Next Pay"
+            description="This app shows how easy it is to set up a payment gateway using Next.js and the SSLCOMMERZ API."
+            skills="#nextjs #nodejs #tailwind #sandbox "
+            link="https://github.com/Siratul804/Payment-Gateway-NextJS.git"
+          />
+        </div>
+        <div className="text-[#71717A] flex sm:justify-between justify-center lg:flex-row flex-col md:flex-col items-center	 ">
+          <ProjectCard
             title="EZPrompt"
             description="It's  an open-source AI prompting tool for modern world to discover, create, edit, store and share creative prompts."
             skills="#nextjs #tailwindCSS #nextAuth #nodejs #mongodb"
             link="https://github.com/Siratul804/prompt_nextJS"
           />
-        </div>
-        <div className="text-[#71717A] flex sm:justify-between justify-center lg:flex-row flex-col md:flex-col items-center	 ">
+
           <ProjectCard
             title=" RoadAhead-Native"
             description="RoadAhead is an advanced AI model that revolutionizes urban mobility by providing real-time traffic data."
             skills="#reactNativeExpo #tailwindCSS #GoogleMapApi"
             link="https://github.com/Siratul804/RoadAhead-Native"
-          />
-          <ProjectCard
-            title="Todo App"
-            description="A simple and intuitive To-Do List application built using React, allowing users to efficiently manage their tasks."
-            skills="#reactjs #javaScript #css "
-            link="https://github.com/Siratul804/todo"
           />
         </div>
         <div className="flex justify-end text-[#71717A] py-10 text-sm ">
