@@ -11,16 +11,16 @@ function Project() {
       <main className=" w-[120vh] ">
         <div className="text-[#71717A] flex sm:justify-between justify-center lg:flex-row flex-col md:flex-col items-center	 ">
           <ProjectCard
-            title="ShapeScript"
-            description="It's a code generator which allow to draw rectangle , circle & triangle into HTML/CSS code."
-            skills="#javaScript #reactjs #css"
-            link="https://github.com/Siratul804/ShapeScript"
+            title="UnifyBot12"
+            description="Meet UnifyBot12, your new favorite Discord bot packed with awesome features! Play classic games like Hangman and Rock Paper Scissors, enjoy hilarious jokes, and generate amazing memes!"
+            skills="#javaScript #node.js #discord.js"
+            link="https://github.com/Siratul804/NodeJS-Discord-UnifyBot12.git"
           />
           <ProjectCard
-            title="Next Pay"
-            description="This app shows how easy it is to set up a payment gateway using Next.js and the SSLCOMMERZ API."
-            skills="#nextjs #nodejs #tailwind #sandbox "
-            link="https://github.com/Siratul804/Payment-Gateway-NextJS.git"
+            title="Kotha"
+            description="Kotha is a unique programming language built using Bengali syntax, designed to bring the beauty of coding to Bengali-speaking developers."
+            skills="#javascript #nodejs"
+            link="https://github.com/Siratul804/Kotha.git"
           />
         </div>
         <div className="text-[#71717A] flex sm:justify-between justify-center lg:flex-row flex-col md:flex-col items-center	 ">
@@ -32,7 +32,7 @@ function Project() {
           />
 
           <ProjectCard
-            title=" RoadAhead-Native"
+            title="RoadAhead"
             description="RoadAhead is an advanced AI model that revolutionizes urban mobility by providing real-time traffic data."
             skills="#reactNativeExpo #tailwindCSS #GoogleMapApi"
             link="https://github.com/Siratul804/RoadAhead-Native"
