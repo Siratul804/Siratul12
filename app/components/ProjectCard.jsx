@@ -23,14 +23,14 @@ export default function ProjectCard({ title, description, skills, link }) {
     <>
       <a target="_blank" href={link} className="sm:pt-8 pt-5">
         <div
-          className="sm:w-[50vh] lg:h-[26vh] md:h-[20vh] w-[40vh]  p-[2rem] h-[30vh] border border-solid border-[#71717A] rounded-xl relative overflow-hidden transition-transform duration-300 ease-in-out"
+          className="sm:w-[50vh] lg:h-[32vh] md:h-[20vh] w-[40vh]  p-[2rem] h-[30vh] border border-solid border-[#71717A] rounded-xl relative overflow-hidden transition-transform duration-300 ease-in-out "
           onMouseMove={handleMouseMove}
           style={{
             background: `radial-gradient(circle at ${mousePos.x}px ${mousePos.y}px, rgba(255, 255, 255, 0.10), transparent)`,
             transform: `translate(${translate.x}px, ${translate.y}px)`,
           }}
         >
-          <div className="content">
+          <div className="content  ">
             <h2 className="text-[#71717A] text-sm font-bold pb-2 ">{title}</h2>
             <p className="text-[#71717A] text-sm">{description}</p>
             <div className="text-[12px] pt-5 flex ">

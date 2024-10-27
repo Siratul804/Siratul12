@@ -1,7 +1,7 @@
 function Experience() {
   return (
     <>
-      <div className="text-[#71717A] font-bold text-2xl  text-center py-10  ">
+      <div className="text-[#71717A] font-bold text-2xl  text-center pt-[10vh]  ">
         Experience
       </div>
       <main className="flex lg:w-[100vh] md:w-[44vh] sm:w-[100vh] sm:justify-between justify-center sm:items-start items-center	 flex-col sm:flex-row	">
