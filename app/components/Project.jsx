@@ -11,16 +11,16 @@ function Project() {
       <main className=" w-[120vh] ">
         <div className="text-[#71717A] flex sm:justify-between justify-center lg:flex-row flex-col md:flex-col items-center	 ">
           <ProjectCard
-            title="UnifyBot12"
-            description="Meet UnifyBot12, your new favorite Discord bot packed with awesome features! Play classic games like Hangman and Rock Paper Scissors, enjoy hilarious jokes, and generate amazing memes!"
-            skills="#javaScript #node.js #discord.js"
-            link="https://github.com/Siratul804/NodeJS-Discord-UnifyBot12.git"
-          />
-          <ProjectCard
             title="Kotha"
             description="Kotha is a unique programming language built using Bengali syntax, designed to bring the beauty of coding to Bengali-speaking developers."
             skills="#javascript #nodejs"
             link="https://github.com/Siratul804/Kotha.git"
+          />
+          <ProjectCard
+            title="UnifyBot12"
+            description="Meet UnifyBot12, your new favorite Discord bot packed with awesome features! Play  Hangman and RPS, jokes, and  memes!"
+            skills="#javaScript #node.js #discord.js"
+            link="https://github.com/Siratul804/NodeJS-Discord-UnifyBot12.git"
           />
         </div>
         <div className="text-[#71717A] flex sm:justify-between justify-center lg:flex-row flex-col md:flex-col items-center	 ">
