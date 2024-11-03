@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa6";
 function Project() {
   return (
     <>
-      <div className="text-[#71717A] font-bold text-2xl text-center py-10  ">
+      <div className="text-[#71717A] font-bold text-2xl text-center pt-[20vh] pb-[4vh]  ">
         Projects
       </div>
       <main className=" w-[120vh] ">

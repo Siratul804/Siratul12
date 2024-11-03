@@ -6,7 +6,7 @@ import Link from "next/link";
 function Contact() {
   return (
     <>
-      <div className="text-[#71717A] font-bold text-2xl text-center py-10  ">
+      <div className="text-[#71717A] font-bold text-2xl text-center pt-[10vh] pb-[4vh]  ">
         Find me
       </div>
       <main className="w-[20vh] ">
