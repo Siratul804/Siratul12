@@ -17,10 +17,10 @@ function Project() {
             link="https://github.com/Siratul804/Kotha.git"
           />
           <ProjectCard
-            title="UnifyBot12"
-            description="Meet UnifyBot12, your new favorite Discord bot packed with awesome features! Play  Hangman and RPS, jokes, and  memes!"
-            skills="#javaScript #node.js #discord.js"
-            link="https://github.com/Siratul804/NodeJS-Discord-UnifyBot12.git"
+            title="RoomReady"
+            description="Room Ready streamlines university scheduling, offering real-time room availability updates to empower students with informed decisions."
+            skills="#nextjs #shadcn/ui #nextAuth #nodejs #mongodb"
+            link="https://github.com/Siratul804/RoomReady.git"
           />
         </div>
         <div className="text-[#71717A] flex sm:justify-between justify-center lg:flex-row flex-col md:flex-col items-center	 ">
