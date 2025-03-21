@@ -17,25 +17,25 @@ function Project() {
             link="https://github.com/Siratul804/Kotha.git"
           />
           <ProjectCard
-            title="RoomReady"
-            description="Room Ready streamlines university scheduling, offering real-time room availability updates to empower students with informed decisions."
-            skills="#nextjs #shadcn/ui #nextAuth #nodejs #mongodb"
-            link="https://github.com/Siratul804/RoomReady.git"
+            title="NeoCampus"
+            description="The All-in-One Student App. Recognized as 4th place in the MIST NeoFetch Hackathon, NeoCampus serves as your essential campus companion."
+            skills="#nextjs #shadcn/ui #nodejs #mongodb #grok"
+            link="https://github.com/Siratul804/NeoCampus"
           />
         </div>
         <div className="text-[#71717A] flex sm:justify-between justify-center lg:flex-row flex-col md:flex-col items-center	 ">
           <ProjectCard
-            title="EZPrompt"
-            description="It's  an open-source AI prompting tool for modern world to discover, create, edit, store and share creative prompts."
-            skills="#nextjs #tailwindCSS #nextAuth #nodejs #mongodb"
-            link="https://github.com/Siratul804/prompt_nextJS"
+            title="PyNodeAI"
+            description="PyNode.AI simplifies AI model integration with comprehensive code examples and documentation for both Python and Node.js. Build and deploy your AI projects faster."
+            skills="#nextjs #shadcn/ui #nodejs #gemini #grok"
+            link="https://github.com/Siratul804/PyNode.AI"
           />
 
           <ProjectCard
-            title="RoadAhead"
-            description="RoadAhead is an advanced AI model that revolutionizes urban mobility by providing real-time traffic data."
-            skills="#reactNativeExpo #tailwindCSS #GoogleMapApi"
-            link="https://github.com/Siratul804/RoadAhead-Native"
+            title="NeoHire"
+            description="NeoHire leverages AI to streamline recruitment by automating resume screening, offering unbiased candidate evaluations, and predicting career growth."
+            skills="#next.js #shadcn/ui #node.js #grok #googleclound"
+            link="https://github.com/Siratul804/NeoHire"
           />
         </div>
         <div className="flex justify-end text-[#71717A] py-10 text-sm ">

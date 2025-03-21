@@ -159,6 +159,81 @@ function AnimatedImages() {
             transition={{ duration: 0.5, delay: 1.6 }}
           />
         </div>
+        <div className="flex justify-center py-4 lg:space-x-4 md:space-x-4 space-x-2">
+          <motion.img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+            height="32"
+            width="32"
+            alt="java logo"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 1.6 }}
+          />
+          <motion.img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+            height="32"
+            width="32"
+            alt="c++ logo"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 1.6 }}
+          />
+          <motion.img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+            height="32"
+            width="32"
+            alt="redis logo"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 1.6 }}
+          />
+          <motion.img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
+            height="32"
+            width="32"
+            alt="graphql logo"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 1.6 }}
+          />
+
+          <motion.img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+            height="32"
+            width="32"
+            alt="docker logo"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 1.6 }}
+          />
+          <motion.img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg"
+            height="32"
+            width="32"
+            alt="supabase logo"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 1.6 }}
+          />
+          <motion.img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+            height="32"
+            width="32"
+            alt="linux logo"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 1.6 }}
+          />
+          <motion.img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+            height="32"
+            width="32"
+            alt="mysql logo"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 1.6 }}
+          />
+        </div>
       </div>
     </>
   );
