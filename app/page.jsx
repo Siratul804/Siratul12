@@ -14,7 +14,7 @@ export default function Home() {
           overflow: "hidden",
           backgroundColor: "black",
         }}
-        className=" h-[350vh] lg:h-[275vh] md:h-[245vh] "
+        className=" h-[350vh] lg:h-[265vh] md:h-[245vh] "
       >
         <GalaxyFarmerMotion />
 
@@ -58,10 +58,11 @@ export default function Home() {
             Siratul Islam
           </h1>
           <div className="text-[#71717A] text-[12px] sm:text-[12px] lg:text-[14px] text-center font-mono py-8  p-4 ">
-            I have the power to create tools and solutions that simplify &{" "}
+            With over 4 years of experience building diverse software projects
             <br />
-            improve people's lives. Thus I am focused on building Scalable
-            Solutions.
+            and earning top ranks in various competitions (including hackathons,{" "}
+            <br />
+            ideathons, project showcase etc..)
           </div>
           <AnimationImages />
           <Experience />
