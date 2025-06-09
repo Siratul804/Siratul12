@@ -5,11 +5,17 @@ import { FaArrowRight } from "react-icons/fa6";
 function Project() {
   return (
     <>
-      <div className="text-[#71717A] font-bold text-2xl text-center pt-[20vh] pb-[4vh]  ">
-        Projects
-      </div>
-      <main className=" w-[120vh] ">
-        <div className="text-[#71717A] flex sm:justify-between justify-center lg:flex-row flex-col md:flex-col items-center	 ">
+      <section className="py-20 px-4 max-w-6xl mx-auto">
+        {/* Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-white mb-4 tracking-tight">
+            Projects
+          </h2>
+          <div className="w-20 h-0.5 bg-white mx-auto"></div>
+        </div>
+
+        {/* Projects Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProjectCard
             title="Kotha"
             description="Kotha is a unique programming language built using Bengali syntax, designed to bring the beauty of coding to Bengali-speaking developers."
@@ -22,8 +28,6 @@ function Project() {
             skills="#nextjs #shadcn/ui #nodejs #mongodb #grok"
             link="https://github.com/Siratul804/NeoCampus"
           />
-        </div>
-        <div className="text-[#71717A] flex sm:justify-between justify-center lg:flex-row flex-col md:flex-col items-center	 ">
           <ProjectCard
             title="PyNodeAI"
             description="PyNode.AI simplifies AI model integration with comprehensive code examples and documentation for both Python and Node.js. Build and deploy your AI projects faster."
@@ -38,19 +42,23 @@ function Project() {
             link="https://github.com/Siratul804/NeoHire"
           />
         </div>
-        <div className="flex justify-end text-[#71717A] py-10 text-sm ">
+
+        {/* Footer */}
+        <div className="text-center mt-16">
           <Link
             href="https://github.com/Siratul804?tab=repositories"
             target="_blank"
-            className="border-b-2 border-[#71717A] hover:text-[#ffffffa3] hover:border-[#ffffffa3] flex items-center"
           >
-            <p>See more</p>
-            <span className=" pl-1">
-              <FaArrowRight size={14} />
-            </span>
+            <div className="inline-flex items-center gap-4 px-8 py-4 border border-white/20 rounded-full bg-white/5 backdrop-blur-sm">
+              <div className="w-2 h-2 bg-white rounded-full"></div>
+
+              <span className="text-white/80 text-sm font-medium tracking-wide">
+                VIEW MORE ON GITHUB
+              </span>
+            </div>
           </Link>
         </div>
-      </main>
+      </section>
     </>
   );
 }
