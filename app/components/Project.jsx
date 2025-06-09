@@ -24,9 +24,15 @@ function Project() {
           />
           <ProjectCard
             title="NeoCampus"
-            description="The All-in-One Student App. Recognized as 4th place in the MIST NeoFetch Hackathon, NeoCampus serves as your essential campus companion."
+            description="NeoCampus: The All-in-One Student App. Recognized as 1st in the UAP INNOVEX Software Showcase & 4th place in the MIST NeoFetch Hackathon, NeoCampus serves as your essential campus companion."
             skills="#nextjs #shadcn/ui #nodejs #mongodb #grok"
             link="https://github.com/Siratul804/NeoCampus"
+          />
+          <ProjectCard
+            title="NeoHire"
+            description="NeoHire leverages AI to streamline recruitment by automating resume screening, offering unbiased candidate evaluations, and predicting career growth."
+            skills="#next.js #shadcn/ui #node.js #grok #googleclound"
+            link="https://github.com/Siratul804/NeoHire"
           />
           <ProjectCard
             title="PyNodeAI"
@@ -34,12 +40,17 @@ function Project() {
             skills="#nextjs #shadcn/ui #nodejs #gemini #grok"
             link="https://github.com/Siratul804/PyNode.AI"
           />
-
           <ProjectCard
-            title="NeoHire"
-            description="NeoHire leverages AI to streamline recruitment by automating resume screening, offering unbiased candidate evaluations, and predicting career growth."
-            skills="#next.js #shadcn/ui #node.js #grok #googleclound"
-            link="https://github.com/Siratul804/NeoHire"
+            title="Reportify"
+            description="Crime Reporting Platform with AI powered Fake Detection - Created by Team The Mavericks for North South University WebXtreme Hackathon."
+            skills="#nextjs #shadcn/ui #nodejs #gemini #grok"
+            link="https://github.com/Siratul804/Reportify.git"
+          />
+          <ProjectCard
+            title="NeoEd"
+            description="NeoEd is an innovative learning platform designed to empower aspiring programmers with personalized and structured educational journeys."
+            skills="#nextjs #shadcn/ui #nodejs #gemini #grok"
+            link="https://github.com/Siratul804/NeoEd.git"
           />
         </div>
 

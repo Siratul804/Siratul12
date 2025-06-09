@@ -5,7 +5,7 @@ import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import HeroSection from "./components/HeroSection";
-import Achievements from "./components/achievements";
+import Achievements from "./components/Achievements";
 // import Footer from "./components/Footer";
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
           overflow: "hidden",
           backgroundColor: "black",
         }}
-        className=" h-[350vh] lg:h-[635vh] md:h-[245vh] "
+        className=" h-[800vh] lg:h-[650vh] md:h-[1045vh] "
       >
         <GalaxyFarmerMotion />
 

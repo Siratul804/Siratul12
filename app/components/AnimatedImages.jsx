@@ -4,33 +4,32 @@ import { motion } from "framer-motion";
 
 const skillCategories = [
   {
-    title: "Frontend",
+    title: "Programming Languages",
     skills: [
+      {
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        alt: "TypeScript",
+        delay: 0.2,
+      },
       {
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         alt: "JavaScript",
         delay: 0.1,
       },
       {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-        alt: "TypeScript",
-        delay: 0.2,
-      },
-      { src: "https://skillicons.dev/icons?i=react", alt: "React", delay: 0.3 },
-      {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-        alt: "Next.js",
-        delay: 0.4,
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+        alt: "C",
+        delay: 2.0,
       },
       {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg",
-        alt: "TailwindCSS",
-        delay: 0.5,
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+        alt: "C++",
+        delay: 2.1,
       },
       {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-        alt: "Bootstrap",
-        delay: 0.6,
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        alt: "Java",
+        delay: 2.2,
       },
     ],
   },
@@ -72,6 +71,32 @@ const skillCategories = [
         alt: "Supabase",
         delay: 1.3,
       },
+      {
+        src: "https://skillicons.dev/icons?i=aws",
+        alt: "AWS",
+        delay: 1.4,
+      },
+    ],
+  },
+  {
+    title: "Frontend",
+    skills: [
+      { src: "https://skillicons.dev/icons?i=react", alt: "React", delay: 0.3 },
+      {
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        alt: "Next.js",
+        delay: 0.4,
+      },
+      {
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg",
+        alt: "TailwindCSS",
+        delay: 0.5,
+      },
+      {
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+        alt: "Bootstrap",
+        delay: 0.6,
+      },
     ],
   },
   {
@@ -106,31 +131,6 @@ const skillCategories = [
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
         alt: "Linux",
         delay: 1.9,
-      },
-    ],
-  },
-  {
-    title: "Programming Languages",
-    skills: [
-      {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
-        alt: "C",
-        delay: 2.0,
-      },
-      {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
-        alt: "C++",
-        delay: 2.1,
-      },
-      {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-        alt: "Java",
-        delay: 2.2,
-      },
-      {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
-        alt: "Android",
-        delay: 2.3,
       },
     ],
   },
@@ -184,7 +184,7 @@ export default function Skills() {
                     <img
                       src={src || "/placeholder.svg"}
                       alt={`${alt} logo`}
-                      className="w-8 h-8 sm:w-10 sm:h-10 filter brightness-0 invert opacity-80 group-hover/skill:opacity-100 transition-all duration-300"
+                      className="w-8 h-8 sm:w-10 sm:h-10  opacity-80 group-hover/skill:opacity-100 transition-all duration-300"
                     />
 
                     {/* Glow effect */}
