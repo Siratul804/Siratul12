@@ -17,10 +17,10 @@ function Project() {
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProjectCard
-            title="Kotha"
-            description="Kotha is a unique programming language built using Bengali syntax, designed to bring the beauty of coding to Bengali-speaking developers."
-            skills="#javascript #nodejs"
-            link="https://github.com/Siratul804/Kotha.git"
+            title="Zeno"
+            description="Zeno isn't just another chatbot; it's an intelligent, voice-powered assistant designed to take action. It listens to your speech and then dynamically responds with practical, real-world functions, bringing a new level of convenience and efficiency to your daily tasks."
+            skills="#next.js #gemini #tailwindcss #SpeechRecognitionAPI"
+            link="https://zenovoice.vercel.app/"
           />
           <ProjectCard
             title="NeoCampus"
