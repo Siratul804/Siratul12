@@ -4,8 +4,7 @@ Siratul Islam
 
 
 <p align="center">
-I have the power to create tools and solutions that simplify &
-improve people's lives so I am focused on building Scalable Solutions.
+Results-driven Software Engineer with 4+ years of experience building scalable web applications and AI-powered solutions. Expertise in JavaScript/TypeScript, Node.js, Next.js, and cloud-native development (AWS, Docker), proven by leading award-winning projects. Passionate about leveraging LLMs (Gemini, GrokAI) and real-time systems to solve complex user challenges.
 </p>
 
 <p align="center">
@@ -55,13 +54,6 @@ improve people's lives so I am focused on building Scalable Solutions.
 
 <p align="center">
 <b>Made with ❤️ by   <a href="https://github.com/Siratul804">  Siratul Islam </a> </b> 
-</p>
-
-<p align="center">
-  <a href="https://github.com/Siratul804?tab=repositories">View Project</a> •
-  <a href="https://github.com/Siratul804">GitHub Profile</a> •
-  <a href="https://www.linkedin.com/in/siratulislam/">LinkedIn</a> •
-  <a href="https://x.com/Siratul074">Twitter</a>
 </p>
 
 <p align="center">
