@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Siratul Islam",
   description:
-    "I have the power to create tools and solutions that simplify & improve people's lives so I am focused on building Scalable Solutions. ",
+    "With over 4 years of experience building diverse software projects and earning top ranks in various competitions including hackathons, ideathons, and project showcases",
   metadataBase: new URL("https://siratul12.vercel.app/"),
   alternates: {
     canonical: "/",
