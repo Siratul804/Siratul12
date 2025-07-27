@@ -5,6 +5,14 @@ import { motion } from "framer-motion";
 function Experience() {
   const experiences = [
     {
+      company: "Twicket",
+      position: "CTO",
+      duration: "May 2025 - Present",
+      location: "Hybrid",
+      current: true,
+      delay: 0.1,
+    },
+    {
       company: "Grit System",
       position: "Software Developer",
       duration: "Dec 2023 - Present",
@@ -14,7 +22,7 @@ function Experience() {
     },
     {
       company: "Seed to Big",
-      position: "Sr. Web Developer",
+      position: " Web Developer",
       duration: "Oct 2020 - Feb 2022",
       location: "Remote",
       current: false,
@@ -36,7 +44,7 @@ function Experience() {
       </div>
 
       {/* Side by side layout */}
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-3 gap-8">
         {experiences.map((exp, index) => (
           <motion.div
             key={index}
