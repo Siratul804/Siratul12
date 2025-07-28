@@ -15,9 +15,9 @@ function Experience() {
     {
       company: "Grit System",
       position: "Software Developer",
-      duration: "Dec 2023 - Present",
-      location: "Remote",
-      current: true,
+      duration: "Dec 2023 - Jul 2025",
+      location: "Hybrid",
+      current: false,
       delay: 0.1,
     },
     {

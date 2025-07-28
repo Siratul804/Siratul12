@@ -13,9 +13,9 @@ export default function Home() {
         <div className="w-full flex flex-col items-center justify-center">
           <HeroSection />
           <Experience />
+          <Project />
           <Achievements />
           <AnimationImages />
-          <Project />
           <Contact />
           {/* <Footer /> */}
         </div>
