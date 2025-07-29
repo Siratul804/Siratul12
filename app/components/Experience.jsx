@@ -6,7 +6,7 @@ function Experience() {
   const experiences = [
     {
       company: "Grit System",
-      position: "Software Developer",
+      position: "Full Stack Developer",
       duration: "Dec 2023 - Jul 2025",
       location: "Hybrid",
       current: false,
@@ -14,7 +14,7 @@ function Experience() {
     },
     {
       company: "Seed to Big",
-      position: " Web Developer",
+      position: "Web Developer",
       duration: "Oct 2020 - Feb 2022",
       location: "Remote",
       current: false,
