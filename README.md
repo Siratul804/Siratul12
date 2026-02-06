@@ -4,11 +4,7 @@ Siratul Islam
 
 
 <p align="center">
-Results-driven Software Engineer with 4+ years of experience building scalable web applications and AI-powered solutions. Expertise in JavaScript/TypeScript, Node.js, Next.js, and cloud-native development (AWS, Docker), proven by leading award-winning projects. Passionate about leveraging LLMs (Gemini, GrokAI) and real-time systems to solve complex user challenges.
-</p>
-
-<p align="center">
-  <img src="https://siratul12.vercel.app/opengraph-image.png" alt="Home Screen" width="650"/>
+I help operations-heavy businesses remove manual work, enforce correct workflows, and give leaders real-time visibility — so they save time, reduce errors, and cut costs. I map your processes, quantify the actual cost of manual work, and build a custom web platform that automates repetitive tasks, enforces correct workflows, and provides the dashboards leaders need.
 </p>
 
 
